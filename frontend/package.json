@@ -24,7 +24,8 @@
     "js-cookie": "^3.0.1",
     "react": "17.x",
     "react-dom": "17.x",
-    "umi": "^3.5.40"
+    "umi": "^3.5.40",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "@types/react": "^17.0.0",
