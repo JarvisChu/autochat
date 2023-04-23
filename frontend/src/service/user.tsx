@@ -26,6 +26,8 @@ export const logout = async (): Promise<any> => {
 export const chat = async (messageList: any[]): Promise<any> => {
     return await request.post({
       path: `${API_HOST}/api/v1/chat`,
-      data: messageList,
+      data: {
+        "messages": messageList,
+      }
     });
 };
