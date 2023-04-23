@@ -35,6 +35,8 @@ func Login(c *gin.Context) {
 		return
 	}
 
+	fmt.Printf("LoginRequest: %+v", req)
+
 	token := fmt.Sprintf("%v", time.Now().UnixMilli())
 	validTokens = append(validTokens, token)
 	c.JSON(http.StatusOK, LoginResponse{
