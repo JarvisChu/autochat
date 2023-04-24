@@ -1,4 +1,4 @@
-package web
+package api
 
 import (
 	"bytes"
@@ -11,7 +11,7 @@ import (
 
 const (
 	CHATGPT_URL = "https://api.openai.com/v1/chat/completions"
-	API_KEY     = "xxx"
+	API_KEY     = ""
 )
 
 func ChatCompletions(req ChatCompletionsRequest) (ChatCompletionsResponse, error) {

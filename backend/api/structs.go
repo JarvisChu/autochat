@@ -1,4 +1,4 @@
-package web
+package api
 
 type LoginRequest struct {
 	Name   string `json:"name"`

@@ -24,12 +24,5 @@ export default defineConfig({
       ]
     }
   ],
-  fastRefresh: {},
-  proxy: {
-    '/api': {
-      target: 'http://localhost:8080',
-      pathRewrite: { '^/api': '/' },
-      changeOrigin: true,
-    }
-  }
+  fastRefresh: {}
 });

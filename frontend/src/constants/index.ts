@@ -1,2 +1,2 @@
-let API_HOST = 'api' // 在 .umirc.ts 中会被 proxy 替换成实际的地址
+let API_HOST = 'http://localhost:8080'
 export {API_HOST}
